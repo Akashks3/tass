@@ -1,0 +1,25 @@
+*{
+  text-decoration: none;
+  box-sizing: content-box;
+}
+.App{
+  display: flex;
+  margin: auto;
+  padding: 12px;
+  margin-top: 10%;
+  align-content: center;
+  align-items: center;
+  background-color: #390cff;
+  margin-top: 10%;
+  column-gap: 3rem;
+  justify-content: center;
+  margin: 0;
+  transition: opacity 0.7s ease;
+  cursor: pointer;
+
+}
+.App:hover>:not(:hover){
+background-color: aliceblue;
+color: black;
+opacity: 0.2;
+}
